@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<html>
+	<head>
+		<title>jCollage Example</title>
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<script type="text/javascript" src="./jcollage/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="../jquery-ui-1.8.4.custom/js/jquery-ui-1.8.4.custom.min.js"></script>
+		<script type="text/javascript" src="./jcollage/jquery.jcollage-1.0.js"></script>
+		<script type="text/javascript">
+			$(document).ready( function(){
+    			$("#collage").jcollage({
+    				draggable : true,
+    				width	  :800,
+    				height	  :600,
+    				shadows	  :	true,
+					rotation  :	true
+    			});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="collage">
+				<img src="example/1_s.jpg" />
+				<img src="example/2_s.jpg" style="width:300px; height:150px;" />
+				<img src="example/3_s.jpg" />
+				<img src="example/4_s.jpg" />
+				<img src="example/5_s.jpg" />
+				<img src="example/6_s.jpg" />
+				<img src="example/7_s.jpg" />
+				<img src="example/8_s.jpg" />
+				<img src="example/9_s.jpg" />
+			</div>	
+		</div>
+	</body>
+</html>
